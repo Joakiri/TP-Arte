@@ -1,6 +1,20 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 header{
-    background-color: ;
+    background-color: #a7c957;
+}
+header a{
+    background-color: #a7c957;
+    color: white;
+    text-decoration: none;
+}
+header ul li{
+    background-color: #a7c957;
+    float: left;
+    width: 5%;
+    font-style: none;
+    list-style-type: none;
+    padding: 5%;
+    height: auto;
 }
