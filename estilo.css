@@ -101,14 +101,16 @@ main section.index section ul li{
     height: auto;
     float: left;
     list-style-type: none;
-    padding-right: 0.8%;
-    padding-left: 0.8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
 }
 main section.index section ul li img{
     border-radius: 20px;
     width: 90%;
     height: auto;
     border: 10px solid #a7c957;
+    box-shadow: 0px 0px 15px #ffd60a;
 }
 
 
@@ -128,7 +130,6 @@ footer section{
 footer div{
     float: left;
     height: auto;
-
 }
 footer img{
     width: 12%;
