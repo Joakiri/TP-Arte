@@ -86,6 +86,8 @@ main section.index div{
 main section.index div img{
     width: 80%;
     height: auto;
+    border: 10px solid #a7c957;
+    border-radius: 10%;
 }
 main section.index section{
     clear: left;
@@ -94,7 +96,20 @@ main section.index section{
     padding-top: 10%;
     text-align: center;
 }
-
+main section.index section ul li{
+    width: 15%;
+    height: auto;
+    float: left;
+    list-style-type: none;
+    padding-right: 0.8%;
+    padding-left: 0.8%;
+}
+main section.index section ul li img{
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    border: 10px solid #a7c957;
+}
 
 
 
