@@ -95,8 +95,46 @@ main section.index section{
     text-align: center;
 }
 
+main div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
 
+main section div {
+    width: 40%;
+    height: auto;
+    float: left;
+    
+}
 
+main section{
+   
+    padding-left: 10%;
+    padding-right: 10%;
+    clear: left;
+    border-bottom: 2px solid #ffd60a;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    text-align: center;
+}
+main section img{
+    width: 50%;
+    height:auto;
+    border: 10px solid #a7c957;
+border-radius: 10%;
+
+}
+main section div img{
+    width: 100%;
+    
+    margin-right: 5%;
+    margin-bottom: 18%;
+    height:auto;
+    border: 10px solid #a7c957;
+border-radius: 10%;
+
+}
 
 
 
