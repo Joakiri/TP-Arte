@@ -1,25 +1,41 @@
 *{
     font-family: Verdana;
 }
+
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
 header nav{
     background-color: #a7c957;
     width: 100%;
-    height: auto;
-    box-shadow: 0px 0px 8px;
+    padding:0;
+    text-align: center;
+    height: 100px;
+    padding-bottom: 15px;
 }
+
 header nav ul{
-    padding-left: 8.5%;
-    padding-top: 2.5%;
-    padding-bottom: 4.5%;
+ 
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    height: 8%;
+    margin-top:0;
+    display: block;
+
+
 }
 header nav ul li {
     width: 15%;
     height: auto;
     float: left;
     list-style-type: none;
-    padding-right: 0.8%;
-    padding-left: 0.8%;
+    border-right: 1px solid #fff;
+    text-align: center;
 }
+
+
 
 header nav ul li a{
     color: white;
@@ -30,7 +46,9 @@ header nav ul li a{
 header nav ul li img{
     width: 25%;
     height: auto;
+
 }
+
 
 
 
@@ -114,6 +132,58 @@ main section.index section ul li img{
 }
 
 
+
+
+main div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+main section div {
+    width: 40%;
+    height: auto;
+    float: left;
+   
+}
+
+
+main section{
+   
+    padding-left: 10%;
+    padding-right: 10%;
+    clear: left;
+    border-bottom: 2px solid #ffd60a;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    text-align: center;
+}
+main section.Intro{
+    width: 100%;
+    clear: none;
+    padding-bottom:5%;
+    padding-top: 0;
+}
+main section img{
+    width: 50%;
+    height:auto;
+    border: 10px solid #a7c957;
+border-radius: 10%;
+
+
+}
+main section div img{
+    width: 85%;
+   
+    margin-right: 5%;
+    margin-bottom: 18%;
+    height:auto;
+    border: 10px solid #a7c957;
+border-radius: 10%;
+
+
+}
 
 
 
